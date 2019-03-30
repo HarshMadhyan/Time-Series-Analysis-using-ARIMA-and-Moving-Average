@@ -17,4 +17,4 @@ Next, we plot moving average curve and 12 Month Rolling Standard Deviation.
 Following which, we use seasonal decomposition on our 'Log of Sales' to understand trends like Seasonality, Residuality. We use Log of sales, in order to make the sales data relatively stationary (as verified by Dickey Fuller's p-value test)
 Our data can be further stationarized by taking one-time-shift (backwards). 
 Next, I plot ACF and PACF plot to understand the AR and MA terms and chose parameters (p,d,q) for our time-series-analysis.
-Finally, I make use of these parameters for time-series forecast.
+Finally, I make use of these parameters for time-series forecast. There are other methods which can be used for forecasting like Prophet, SARIMAX, etc. However, these methods have not been included in this notebook.
